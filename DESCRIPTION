@@ -4,8 +4,10 @@ Version: 0.0.1.0000
 Authors@R: 
     person("Jim", "Ianelli", , "Jim.Ianelli@noaa.gov", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7170-8677"))
-Description: Facilitates Model Running for EBS Pollock
-License: `use_mit_license()`
+Author: Jim Ianelli [aut, cre]
+Maintainer: Jim Ianelli <Jim.Ianelli@noaa.gov>
+Description: Facilitates model running for EBS Pollock.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
@@ -16,5 +18,12 @@ Suggests:
 Config/testthat/edition: 3
 URL: http://afsc-assessments.github.io/EBSpollock/, http://afsc-assessments.github.io/EBSwp/, http://afsc-assessments.github.io/ebswp/, https://afsc-assessments.github.io/ebs_pollock/
 VignetteBuilder: knitr
-Imports: 
+Depends:
+    R (>= 4.1.0),
+    ggplot2,
+    dplyr,
+    xtable,
+    ggthemes,
+    here
+Imports:
     stringr

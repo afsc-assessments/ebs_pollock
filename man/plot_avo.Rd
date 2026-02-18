@@ -8,7 +8,8 @@ plot_avo(
   M,
   xlab = "Year",
   ylab = "Acoustic return (Sa from AVO) ",
-  ylim = NULL
+  ylim = NULL,
+  error_bars = TRUE
 )
 }
 \arguments{
@@ -25,6 +26,8 @@ plot_avo(
 \item{color}{Color for the points.}
 
 \item{biomass}{Logical indicating if biomass data should be used. If FALSE, other measurements are used.}
+
+\item{error_bars}{Logical flag to draw error bars. Default is \code{TRUE}.}
 }
 \value{
 A ggplot object with the plotted data.

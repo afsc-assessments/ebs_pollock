@@ -69,6 +69,7 @@ A function that returns a list containing various parameters, settings, and data
 This includes start years, recruitment ages, maturity proportions, weights, catch data, survey data, and more.
 }
 \examples{
+\dontrun{
 input_data <- get_input_data()
-
+}
 }

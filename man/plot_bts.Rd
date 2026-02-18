@@ -11,7 +11,8 @@ plot_bts(
   xlim = NULL,
   ylim = NULL,
   color = "purple",
-  biomass = TRUE
+  biomass = TRUE,
+  error_bars = TRUE
 )
 }
 \arguments{
@@ -28,6 +29,8 @@ plot_bts(
 \item{color}{Color for the points.}
 
 \item{biomass}{Logical indicating if biomass data should be used. If FALSE, other measurements are used.}
+
+\item{error_bars}{Logical flag to draw error bars. Default is \code{TRUE}.}
 }
 \value{
 A ggplot object with the plotted data.

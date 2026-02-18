@@ -12,7 +12,8 @@ plot_ats(
   ylim = NULL,
   alpha = 0.1,
   biomass = TRUE,
-  color = "red"
+  color = "red",
+  error_bars = TRUE
 )
 }
 \arguments{
@@ -33,6 +34,8 @@ by \code{.get_ats_df}.}
 if \code{FALSE}, plots data related to another metric. Default is \code{TRUE}.}
 
 \item{color}{Color for the data points. Default is "red".}
+
+\item{error_bars}{Logical flag to draw error bars. Default is \code{TRUE}.}
 }
 \value{
 A ggplot2 plot object visualizing the acoustic trawl survey data.

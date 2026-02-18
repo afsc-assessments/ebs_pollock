@@ -5,3 +5,8 @@
 ^\.Rproj\.user$
 ^\.github$
 ^src$
+^\.git$
+^\.gitignore$
+^\.Rcheck$
+^\.\.Rcheck$
+^LICENSE\.md$
