@@ -17,6 +17,8 @@ get_results(
 \item{rundir}{The main sub directory path for the models. Default is 'runs'}
 
 \item{moddir}{The main directory path for the models. Default is 'mod_dir'}
+
+\item{run_on_mac}{Logical. Whether to use macOS-specific run behavior.}
 }
 \value{
 A list containing model results.

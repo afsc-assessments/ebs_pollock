@@ -21,6 +21,8 @@ run_model(
 
 \item{Output}{Logical. A flag indicating if any output should be displayed (e.g., messages,
 progress, etc.), default is \code{FALSE}.}
+
+\item{run_on_mac}{Logical. Whether to use macOS-specific run behavior.}
 }
 \value{
 A list containing the outputs of the ADMB models and the fetched variables.

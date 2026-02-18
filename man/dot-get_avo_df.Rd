@@ -8,8 +8,6 @@
 }
 \arguments{
 \item{M}{A list of models where each model has the needed attributes.}
-
-\item{biomass}{Logical indicating if biomass data should be used. If FALSE, other measurements are used.}
 }
 \value{
 A data frame with columns for year, model, observed values, predicted values, lower bounds, and upper bounds.

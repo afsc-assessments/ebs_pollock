@@ -16,8 +16,9 @@ run_proj(
 
 \item{rundir}{Character string. The base run directory path for the models, default is \code{runs}.}
 
-\item{modnames}{Character vector. The names of the models, default is \code{mod_names}.
-progress, etc.), default is \code{FALSE}.}
+\item{modnames}{Character vector. The names of the models, default is \code{mod_names}.}
+
+\item{run_on_mac}{Logical. Whether to use macOS-specific run behavior.}
 }
 \description{
 This function uses parallel processing to run multiple ADMB models and

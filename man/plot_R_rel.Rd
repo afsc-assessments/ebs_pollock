@@ -24,7 +24,13 @@ plot_R_rel(
 
 \item{ylim}{is the upper limit of the figure}
 
+\item{xlim}{limits for the x-axis}
+
 \item{alpha}{the opacity of the ribbon}
+
+\item{legend}{logical flag to draw a legend}
+
+\item{rel}{logical flag for relative recruitment}
 }
 \value{
 Plot of model estimates of spawning stock biomass

@@ -20,6 +20,14 @@ plot_recruitment(
 \item{xlab}{the x-axis label for the plot}
 
 \item{ylab}{the y-axis label for the plot}
+
+\item{xlim}{limits for the x-axis}
+
+\item{fatten}{line width multiplier}
+
+\item{fill}{fill color for the ribbon}
+
+\item{alpha}{opacity for the ribbon}
 }
 \value{
 Plot of predicted recruitment

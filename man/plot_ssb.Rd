@@ -25,7 +25,15 @@ plot_ssb(
 
 \item{ylim}{is the upper limit of the figure}
 
+\item{xlim}{limits for the x-axis}
+
+\item{breaks}{tick marks for the x-axis}
+
 \item{alpha}{the opacity of the ribbon}
+
+\item{legend}{logical flag to draw a legend}
+
+\item{order}{optional ordering of model series}
 }
 \value{
 Plot of model estimates of spawning stock biomass

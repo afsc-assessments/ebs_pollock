@@ -20,6 +20,8 @@ plot_cpue(
 \item{ylab}{the y-label of the figure}
 
 \item{ylim}{is the upper limit of the figure}
+
+\item{color}{Color for the points.}
 }
 \value{
 Plot of model estimates of observed and predicted CPUE

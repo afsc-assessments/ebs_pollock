@@ -7,7 +7,9 @@
 read_psv(fn, nsamples = 10000)
 }
 \arguments{
-\item{repfile}{name of ADMB output file to be read (no extension needed)}
+\item{fn}{name of ADMB .psv file to be read (no extension needed)}
+
+\item{nsamples}{number of posterior samples to read}
 }
 \value{
 object of type 'list' with ADMB outputs therein

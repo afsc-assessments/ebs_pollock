@@ -17,15 +17,17 @@ plot_agefit(
 )
 }
 \arguments{
-\item{case_label}{Label for the specific case or dataset being visualized. Default is "2011 assessment".}
+\item{x}{Model object or data needed to build age composition plots.}
 
-\item{dat}{A data frame, default is \code{mod1}. The structure must contain age composition data, and the names used to create the temporary variables \code{tmp1}, \code{tmp2}, and \code{tmp3}.}
+\item{case_label}{Label for the specific case or dataset being visualized. Default is "2021 assessment".}
 
-\item{main}{Title of the main plot. Default is an empty string.}
+\item{gear}{Gear identifier (e.g., "bts").}
 
-\item{f}{An integer representing the fishery index. Default is 1.}
+\item{type}{Data type to plot (e.g., "survey").}
 
-\item{rec_age}{An integer denoting the recruitment age. Default is 2.}
+\item{styr}{Start year for plotting (optional).}
+
+\item{ageplus}{Plus group age (optional).}
 }
 \value{
 A multi-panel plot where each panel visualizes age composition data for a

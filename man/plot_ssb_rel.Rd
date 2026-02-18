@@ -24,6 +24,12 @@ plot_ssb_rel(
 
 \item{ylim}{is the upper limit of the figure}
 
+\item{xlim}{limits for the x-axis}
+
+\item{legend}{logical flag to draw a legend}
+
+\item{breaks}{tick marks for the x-axis}
+
 \item{alpha}{the opacity of the ribbon}
 }
 \value{

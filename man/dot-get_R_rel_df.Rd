@@ -8,6 +8,8 @@
 }
 \arguments{
 \item{M}{list object created by read_admb function}
+
+\item{rel}{logical flag for relative recruitment}
 }
 \value{
 dataframe of spawning biomass

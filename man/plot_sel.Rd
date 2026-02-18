@@ -16,15 +16,21 @@ plot_sel(
 )
 }
 \arguments{
+\item{Year}{Vector of years.}
+
+\item{sel}{Selectivity matrix or vector.}
+
+\item{styr}{Start year.}
+
+\item{fage}{First age to plot (optional).}
+
+\item{lage}{Last age to plot (optional).}
+
 \item{alpha}{the opacity of the ribbon}
 
-\item{M}{List object(s) created by read_admb function}
+\item{scale}{Scaling factor for plotting.}
 
-\item{xlab}{the x-label of the figure}
-
-\item{ylab}{the y-label of the figure}
-
-\item{ylim}{is the upper limit of the figure}
+\item{fill}{Fill color.}
 }
 \value{
 Plot of model estimates of spawning stock biomass
